@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # 1. 從後台 Secrets 讀取金鑰
 try:
-    api_key = st.secrets["GEMINI_API_KEY"]
+    api_key = st.secrets["AIzaSyCRb7rpOXnrB-CfSTkTvlxkMYMY7bNv7K0"]
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-3.1-flash-lite')
 
